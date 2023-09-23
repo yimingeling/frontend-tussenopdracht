@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@600&display=swap');
+
+body {
+    font-family:monospace;
+    background-color: #BA3B3F;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 150%;
+}
+
+
+
+h2 {
+    font-size: 250%;
+}
+
+h3 {
+    font-size: 200%;
+}
+
+h4 {    
+    font-size: 150%;
+}
+
+.linktexttop {
+    font-size: 200%;
+    text-decoration: none;
+}
+
+
+.container {
+    margin: 1vw 5vw;
+        display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    
+
+}
+
+
+    
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+main {
+    background-color: #E1E1E1;
+    border-left: black solid 2px;
+    border-right: black solid 2px;
+    box-shadow: 10px 15px 3px;
+}
+
+
+
+
+header {
+    background-color: #91867E;
+    padding: 0 10%;
+    border-radius: 20px 20px 0 0;
+    border: 2px solid black;
+    box-shadow: 10px 15px 3px;
+
+
+}
+
+.navTop {
+
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logobutton {
+    display: flex;
+    width: 150px;
+    color: white;
+    justify-content: center;
+
+}
+
+.logo {
+    display: flex;
+    
+}
+
+.logo:hover {
+    background-color: gray;
+}
+
+.logoimg {
+    width: 100px;
+}
+
+
+.navbutton {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex: 1 1;
+    margin: 0 20px;
+    padding: 0 20px;
+    background-color: #82766E;
+
+    outline: 2px black solid;
+    border-radius: 30px;
+    
+    
+        
+}
+
+.navbutton:hover {
+    
+    background-color: #696059;
+    box-shadow: 5px 5px 8px;
+    
+    
+}
+
+
+
+
+
+
+.topBun {
+    border-bottom: 2px black solid;
+    padding: 200px 10% 200px 10% ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+
+.wholeproduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 350% ;
+}
+
+
+.product {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    gap: 10%;
+    flex: 1;
+}
+
+.cover {
+    flex: 12;
+    display: flex;
+}
+
+    #coverimg {
+        border: 2px black solid;
+        flex: 10 1 50%;
+        box-shadow: 5px 5px 8px;
+
+    }
+
+.price {
+    display: flex;
+    flex: 6;
+  
+    flex-direction: column;
+}
+
+.bestelknop {
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #BA3B3F;
+    text-align: center;
+    box-shadow: 5px 5px 8px;
+}
+
+#order {
+    text-decoration: none;
+    color: white;
+}
+
+.bestelknop:hover {
+    background-color: black;
+}
+
+.burger {
+    padding: 150px 10% 150px 10% ;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5%;
+    
+}
+
+.omschrijvingMetPunten {
+    
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items:  start;
+}
+
+
+
+.punten {
+    background-color: #C8CBC8;
+    padding: 1% 5%;
+    flex: 1;
+}
+
+.omschrijving{
+    flex: 3;
+    padding: 1% 5%;
+
+}
+
+
+
+
+
+
+
+
+.bottomBun {
+    
+    background-color: #C8CBC8;
+    padding: 150px 10% 150px 10% ;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.threeProducts {
+    width: 70%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-items: stretch;
+    flex: 1;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+    flex: 1;
+    flex-grow: 1;
+}
+
+.productimg {
+    width: 10vw;
+    border: 1px black solid;
+    box-shadow: 5px 5px 8px;
+}
+
+.relatedlink {
+    padding: 10px;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.relatedlink:hover {
+    background-color: #BABABA;
+}
+
+
+
+
+
+
+
+
+footer {
+    padding: 150px 10% 150px 10%;
+    background-color: #91867E;
+    border: black 2px solid;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 10px 10px 3px;
+
+}
+
+.navBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
