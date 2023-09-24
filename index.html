@@ -11,38 +11,48 @@
 <div class = container>
     <header>
         <nav class = navTop>
-            <a class="logo" href="https://youtu.be/z4gwzjf88Vg?si=6wfN7iP4M2CxsFwp">
-                <div class = logobutton>
-                
-                    <img class = logoimg src="/frontend-tussenopdracht/images/bird2.png" alt="logo" >
-                </div>  
-            </a>
-           
-            <a href="https://youtu.be/z4gwzjf88Vg?si=6wfN7iP4M2CxsFwp">
-                <div class="navbutton">
-                    <p class = linktexttop>about</p>
-                </div>
-            </a>
-
-           
-            <a href="https://youtu.be/z4gwzjf88Vg?si=6wfN7iP4M2CxsFwp">
-                <div class="navbutton">
-                    <p class = linktexttop>2023 tour</p>
-                </div>        
-            </a>
+            <section class = navTopButtons>
+                <a class="logo" href="https://youtu.be/z4gwzjf88Vg?si=6wfN7iP4M2CxsFwp">
+                    <div class = logobutton>
+                    
+                        <img class = logoimg src="/frontend-tussenopdracht/images/bird2.png" alt="logo" >
+                    </div>  
+                </a>
             
-            <a href="https://youtu.be/z4gwzjf88Vg?si=6wfN7iP4M2CxsFwp">
-                <div class="navbutton">
-                    <p class = linktexttop>shop</p>
-                </div>
-            </a>
+                <a href=#product>
+                    <div class="navbutton">
+                        <p class = linktexttop>Product</p>
+                    </div>
+                </a>
+
+            
+                <a href=#description>
+                    <div class="navbutton">
+                        <p class = linktexttop>Description</p>
+                    </div>        
+                </a>
+                
+                <a href=#related>
+                    <div class="navbutton">
+                        <p class = linktexttop>Related</p>
+                    </div>
+                </a>
+            </section>
+            <div class = search>
+                <input class = searchbar type="text" placeholder="Search..">
+                <a href="" class = searchbutton>
+                    <p>Search</p>
+                </a>    
+                
+                
+            </div>
             
            
         </nav>
     </header>
     <main>
         <section class ="topBun">
-            <div class="wholeproduct">
+            <div id = product class="wholeproduct">
                 <div class = titlealign>
                         
                     <h1>25offNEW - BEATTAPE</h1>
@@ -103,7 +113,7 @@
             </div>
         </section>
         
-        <div class = burger>
+        <div class = burger id = description>
             <section class = "omschrijvingMetPunten" >
                 <article class = punten>
                     <h4>Critics say:</h4>
@@ -117,8 +127,8 @@
             </section>      
         </div>
 
-            <section class = bottomBun>
-                <h2>Related</h2>
+            <section class = bottomBun >
+                <h2 id = related>Related</h2>
                  <div class = threeProducts>   
                     <a class="relatedlink" href="https://youtu.be/z4gwzjf88Vg?si=6wfN7iP4M2CxsFwp">
                         <article class = products>
