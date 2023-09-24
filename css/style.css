@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
 
 body {
-    font-family:monospace;
+    font-family: 'Roboto', sans-serif;
     background-color: #BA3B3F;
     display: flex;
     justify-content: center;
@@ -15,15 +16,44 @@ p {
 
 h2 {
     font-size: 250%;
+    font-family: 'Playfair Display', serif;
+
 }
 
 h3 {
     font-size: 200%;
+    font-family: 'Playfair Display', serif;
 }
 
 h4 {    
     font-size: 150%;
 }
+
+.navbutton {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex: 1 1;
+    margin: 0 20px;
+    padding: 0 20px;
+    background-color: #82766E;
+    border-radius: 30px;
+        
+}
+
+.navbutton:hover {
+    
+    background-color: #696059;
+    box-shadow: 5px 5px 8px black;
+    
+    
+}
+
+
+
+
 
 .linktexttop {
     font-size: 200%;
@@ -46,6 +76,7 @@ h4 {
 a {
     text-decoration: none;
     color: black;
+    
 }
 
 
@@ -53,7 +84,7 @@ main {
     background-color: #E1E1E1;
     border-left: black solid 2px;
     border-right: black solid 2px;
-    box-shadow: 10px 15px 3px;
+    box-shadow: 10px 15px 8px;
 }
 
 
@@ -64,7 +95,7 @@ header {
     padding: 0 10%;
     border-radius: 20px 20px 0 0;
     border: 2px solid black;
-    box-shadow: 10px 15px 3px;
+    box-shadow: 10px 17px 8px;
 
 
 }
@@ -75,6 +106,16 @@ header {
     display: flex;
     justify-content: left;
     align-items: center;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.navTop .navbutton {
+    
+    outline: 2px black solid;
+    border-radius: 30px;
+    
+    
 }
 
 .logobutton {
@@ -95,35 +136,13 @@ header {
 }
 
 .logoimg {
-    width: 100px;
+    width: 150px;
 }
 
 
-.navbutton {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    flex: 1 1;
-    margin: 0 20px;
-    padding: 0 20px;
-    background-color: #82766E;
 
-    outline: 2px black solid;
-    border-radius: 30px;
-    
-    
-        
-}
 
-.navbutton:hover {
-    
-    background-color: #696059;
-    box-shadow: 5px 5px 8px;
-    
-    
-}
+
 
 
 
@@ -148,8 +167,8 @@ header {
 }
 
 h1 {
-    font-family: 'Noto Serif', serif;
-    font-size: 350% ;
+    font-family: 'Playfair Display', serif;
+    font-size: 550% ;
 }
 
 
@@ -180,6 +199,16 @@ h1 {
     flex-direction: column;
 }
 
+.tracklist {
+    margin-bottom: 50px;
+}
+
+.tracklist p{
+    margin: 0;
+}
+
+
+
 .bestelknop {
     border: black 2px solid;
     border-radius: 20px;
@@ -197,6 +226,9 @@ h1 {
 .bestelknop:hover {
     background-color: black;
 }
+
+
+
 
 .burger {
     padding: 150px 10% 150px 10% ;
@@ -222,6 +254,12 @@ h1 {
     background-color: #C8CBC8;
     padding: 1% 5%;
     flex: 1;
+    border-radius: 20px;
+
+    font-family: 'Playfair Display', serif;
+    box-shadow:  5px 5px 8px;
+    
+
 }
 
 .omschrijving{
@@ -286,6 +324,8 @@ h1 {
 
 .relatedlink:hover {
     background-color: #BABABA;
+    box-shadow: 5px 5px 8px;
+
 }
 
 
@@ -296,11 +336,17 @@ h1 {
 
 
 footer {
-    padding: 150px 10% 150px 10%;
+    padding: 150px 10% 100px 10%;
     background-color: #91867E;
     border: black 2px solid;
     border-radius: 0 0 20px 20px;
-    box-shadow: 10px 10px 3px;
+    box-shadow: 10px 10px 8px black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
 
 }
 
@@ -308,4 +354,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.navBottom a{
+    color: white;
 }
