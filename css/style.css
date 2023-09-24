@@ -164,11 +164,20 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    gap: 50px;
+}
+
+.titlealign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 550% ;
+    text-align: right;
+    width: 885px;
+    font-size: 350% ;
 }
 
 
@@ -360,4 +369,8 @@ footer {
 
 .navBottom a{
     color: white;
+}
+
+.disclaimer {
+    font-size: 100%;
 }
